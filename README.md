@@ -21,7 +21,6 @@ export default function Chat() {
         </View>
     )
 }
-
 function ChatItem({ item }) {
     return (
         <View style={[styles.chatItemCommon, item.type === 'send' ? styles.send : styles.receive]}>
